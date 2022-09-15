@@ -14,6 +14,7 @@ Let's try to make a **simple** font:
 * Just imagine happy kids having 3x3 dots to connect and no complex curves.
 * Let's use as few simple straight strokes as possible to make it clear which symbol it is.
 * By the way, monospace fonts are used to write and read code easier.
+* If we do need big letters like for code, then just double-line one main vertical line.
 * Each letter and digit should not lead to confusion like letter O and digit 0.
 * The same form of a symbol can be reused multiple times using rotation.
 * Consistent style groups symbols together,  
@@ -23,6 +24,6 @@ Let's try to make a **simple** font:
 * So letters should have space around, even handwritten.
 
 TODO:
-* 6x6 SVG and PNG images.
+* 6x6 SVG and PNG images for normal and big letters.
 * TTF font file.
 * Try to use it for Whyolet website and products.
