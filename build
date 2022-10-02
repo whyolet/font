@@ -1,0 +1,14 @@
+#!/bin/bash
+set -euf
+
+PIXELS=4096
+PREFIX=whyolet-font
+
+for FLAVOR in normal big
+do
+    inkscape \
+        -w $PIXELS \
+        -h $PIXELS \
+        -o $PREFIX-$FLAVOR.png \
+           $PREFIX-$FLAVOR.svg
+done
