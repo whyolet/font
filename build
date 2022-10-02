@@ -1,14 +1,10 @@
 #!/bin/bash
 set -euf
 
-PIXELS=4096
 PREFIX=whyolet-font
 
-for FLAVOR in normal big
-do
-    inkscape \
-        -w $PIXELS \
-        -h $PIXELS \
-        -o $PREFIX-$FLAVOR.png \
-           $PREFIX-$FLAVOR.svg
-done
+inkscape -w 4096 -h 4096 -o $PREFIX-normal.png $PREFIX-normal.svg
+inkscape -w 4096 -h 4096 -o $PREFIX-big.png $PREFIX-big.svg
+
+# 13x19 -> 13000x19000 / 4 = 3250x4750
+inkscape -w 3250 -h 4750 -o $PREFIX-slim.png $PREFIX-slim.svg

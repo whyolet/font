@@ -1,10 +1,14 @@
 # Whyolet Font
 
-## Normal letters
+## NEW: Slim letters
+
+![Slim letters](whyolet-font-slim.png)
+
+## OLD: Normal letters
 
 ![Normal letters](whyolet-font-normal.png)
 
-## Big letters
+## OLD: Big letters
 
 ![Big letters](whyolet-font-big.png)
 
@@ -32,9 +36,16 @@ Let's try to make a **simple** font:
   making it almost impossible to read it, unless letters are split.
 * So letters should have space around, even handwritten.
 
+## In progress
+
+* Review, address suggestions:
+    * Try slim 1x2, but bolder font.
+    * Find better symbols for: D, J, Q, S.
+
 ## TODO
 
-* Review.
+* Update "Design" section to match final version.
+* Delete outdated files.
 * Create TTF font file.
 * Try to use it for [Whyolet website](https://whyolet.com/) and products.
 * On success, implement all [requirements](https://googlefonts.github.io/gf-guide/) to upload to [Google Fonts](https://fonts.google.com/).
