@@ -1,5 +1,15 @@
 # Whyolet Font
 
+## Normal letters
+
+![Normal letters](whyolet-font-normal.png)
+
+## Big letters
+
+![Big letters](whyolet-font-big.png)
+
+## Design
+
 Let's try to make a **simple** font:
 
 * Latin alphabet has relatively few letters and is widely used.
@@ -22,8 +32,9 @@ Let's try to make a **simple** font:
   making it almost impossible to read it, unless letters are split.
 * So letters should have space around, even handwritten.
 
-TODO:
+## TODO
+
 * Review.
-* TTF font file.
-* Try to use it for Whyolet website and products.
+* Create TTF font file.
+* Try to use it for [Whyolet website](https://whyolet.com/) and products.
 * On success, implement all [requirements](https://googlefonts.github.io/gf-guide/) to upload to [Google Fonts](https://fonts.google.com/).
