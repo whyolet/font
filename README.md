@@ -43,7 +43,7 @@ Let's try to make a **simple** font:
 * Review, address suggestions:
     * Try slim 1x2, but bolder font.
     * Find better symbols for: D, J, Q, S.
-    * Find what to do with big letters now.
+    * Find what to do with big letters now, e.g. try small-caps.
 
 ## TODO
 
