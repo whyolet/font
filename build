@@ -8,3 +8,6 @@ inkscape -w 4096 -h 4096 -o $PREFIX-big.png $PREFIX-big.svg
 
 # 13x19 -> 13000x19000 / 4 = 3250x4750
 inkscape -w 3250 -h 4750 -o $PREFIX-slim.png $PREFIX-slim.svg
+
+# 18.5x3 -> 18500x3000 / 4 = 4625x750
+inkscape -w 4625 -h 750 -o $PREFIX-logo.png $PREFIX-logo.svg
