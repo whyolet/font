@@ -38,3 +38,8 @@ Let's try to make a **simple** font:
 * Create TTF font file.
 * Try to use it for [Whyolet website](https://whyolet.com/) and products.
 * On success, implement all [requirements](https://googlefonts.github.io/gf-guide/) to upload to [Google Fonts](https://fonts.google.com/).
+
+## License
+
+* This Font Software is licensed under the SIL Open Font License, Version 1.1.
+* This license is available with a FAQ at https://scripts.sil.org/OFL
