@@ -26,3 +26,4 @@ TODO:
 * Review.
 * TTF font file.
 * Try to use it for Whyolet website and products.
+* On success, implement all [requirements](https://googlefonts.github.io/gf-guide/) to upload to [Google Fonts](https://fonts.google.com/).
