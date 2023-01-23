@@ -1,13 +1,11 @@
 #!/bin/bash
-set -euf
+set -eu
 
-PREFIX=whyolet-font
+NAME=whyolet-font-alphanumericals
+# 19x31 -> 19000x31000 / 8 = 2375x3875
+inkscape -w 2375 -h 3875 -o $NAME.png $NAME.svg
 
-inkscape -w 4096 -h 4096 -o $PREFIX-normal.png $PREFIX-normal.svg
-inkscape -w 4096 -h 4096 -o $PREFIX-big.png $PREFIX-big.svg
+NAME=whyolet-font-logo
+# 37x8 -> 37000x8000 / 8 = 4625x1000
+inkscape -w 4625 -h 1000 -o $NAME.png $NAME.svg
 
-# 13x19 -> 13000x19000 / 4 = 3250x4750
-inkscape -w 3250 -h 4750 -o $PREFIX-slim.png $PREFIX-slim.svg
-
-# 18.5x4 -> 18500x4000 / 4 = 4625x1000
-inkscape -w 4625 -h 1000 -o $PREFIX-logo.png $PREFIX-logo.svg

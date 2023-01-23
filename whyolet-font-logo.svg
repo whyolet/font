@@ -2,43 +2,44 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
 >
-<!-- Docs: https://developer.mozilla.org/en-US/docs/Web/SVG/Element -->
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 18.5 4">
+<!--
+
+* "Whyolet Font" phrase contains 12 letters, including space, 2x4 size each.
+* We also need 13 spaces between letters, and 1 space above and below, 1x1 size each.
+* Small-caps style scales big letters to 2x6 size each, to keep it monospace.
+* 12*2 + 13*1 = 37.
+* 1 + 6 + 1 = 8.
+* So canvas is 37x8.
+* Letters are copied from `whyolet-font-alphanumericals.svg`
+* Docs: https://developer.mozilla.org/en-US/docs/Web/SVG/Element
+
+-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 37 8">
     <rect
         x="0" y="0"
-        width="18.5" height="4"
+        width="37" height="8"
         fill="#FFF" stroke="none"
     />
     <path
         fill="none" stroke="#333"
-        stroke-width="0.2"
+        stroke-width="0.3"
         stroke-linecap="round"
         stroke-linejoin="round"
         d="
 
-M0.5,0.5 v3 l0.5,-1.5 l0.5,1.5 v-3
-M2,1.5 v2 m0,-1 h1 m0,-1 v2
-M3.5,1.5 l0.5,1 l0.5,-1 m-0.5,1 v1
-M5,1.5 h1 v2 h-1 v-2
-M6.5,1.5 v2 h1
-M8,1.5 m1,0 h-1 v2 h1 m-1,-1 h1
-M9.5,1.5 h1 m-0.5,0 v2
+M1,1 v6 l1,-3 l1,3 v-6
+M4,3 v4 m0,-2 h2 m0,-2 v4
+M7,3 l1,2 l1,-2 m-1,2 v2
+M10,3 h2 v4 h-2 v-4
+M13,3 v4 h2
+M16,3 m2,0 h-2 v4 h2 m-2,-2 h2
+M19,3 h2 m-1,0 v4
 
-M12.5,0.5 m1,0 h-1 v3 m0,-1.5 h1
-M14,1.5 h1 v2 h-1 v-2
-M15.5,1.5 m0,2 v-2 l1,2 v-2
-M17,1.5 h1 m-0.5,0 v2
+M25,1 m2,0 h-2 v6 m0,-3 h2
+M28,3 h2 v4 h-2 v-4
+M31,3 m0,4 v-4 l2,4 v-4
+M34,3 h2 m-1,0 v4
 
         "
     />
 </svg>
-<!--
-
-* "Whyolet Font" phrase contains 12 letters, including space, 1x2 size each.
-* We also need 13 spaces between letters, 0.5 size each.
-* Using small-caps scales big letters to 1x3 size each, to keep it monospace.
-* 12*1 + 13*0.5 = 18.5.
-* 0.5 + 3 + 0.5 = 4.
-* So canvas is 18.5x4.
-
--->
